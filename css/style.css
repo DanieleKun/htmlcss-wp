@@ -1,3 +1,4 @@
+/* General rules  */
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +11,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* ClearFix */
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
 
+/* Header and navigator rules */
 header {
-    margin-top: 1%;
+    margin-top: 10px;
     /* Debug */
     /* height: 100px;
     background-color: rgb(229, 121, 230); */
@@ -40,9 +44,9 @@ nav ul li a {
     text-decoration: none;
 }
 
-
+/* Big banner top rules */
 .container-top {
-    margin: 2% 0;
+    margin: 25px 0;
     position: relative;
     /* Debug */
     /* height: 400px;
@@ -70,7 +74,7 @@ nav ul li a {
     font-weight: lighter;
 }
 
-
+/* Header row */
 .row-title {
     margin: 10px 0;
     /* Debug */
@@ -83,7 +87,7 @@ nav ul li a {
 
 
 .row {
-    padding: 1% 0;
+    padding: 10px 0;
     color: gray;
     /* Debug */
     /* border: solid 1px red; */
@@ -91,6 +95,7 @@ nav ul li a {
     
 }
 
+/* Columns rules */
 .column-sx {
     width: 20%;
     float: left;
@@ -105,8 +110,8 @@ nav ul li a {
     object-fit: cover;
     border-radius: 10px;
     filter: brightness(80%);
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px; 
+} 
 
 
 
@@ -126,7 +131,7 @@ nav ul li a {
     border-radius: 10px;
     filter: brightness(80%);
     margin-bottom: 10px;
-}
+} 
 
 .column-dx {
     width: 20%;
@@ -142,8 +147,10 @@ nav ul li a {
     object-fit: cover;
     border-radius: 10px;
     filter: brightness(80%);
+    margin-bottom: 10px;
 }
 
+/* Footer rules */
 footer {
     margin: 30px 0;
     /* Debug */
