@@ -40,13 +40,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-footer {
-    margin: 1% 0;
-    /* Debug */
-    height: 50px;
-    background-color: rgb(136, 1, 254);
-}
-
 
 .container-top {
     margin: 2% 0;
@@ -108,6 +101,7 @@ footer {
 
 .column-sx img {
     width: 100%;
+    height: 275px;
     object-fit: cover;
     border-radius: 10px;
     filter: brightness(80%);
@@ -138,6 +132,35 @@ footer {
     width: 20%;
     float: left;
     /* Debug */
-    height: 500px;
-    background-color: rgb(171, 207, 231);
+    /* height: 500px;
+    background-color: rgb(171, 207, 231); */
+}
+
+.column-dx img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(80%);
+}
+
+footer {
+    margin: 30px 0;
+    /* Debug */
+    /* height: 50px;
+    background-color: rgb(136, 1, 254); */
+}
+
+.foot-credit {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.foot-credit h3 {
+    font-weight: lighter;
+}
+
+.foot-credit .heart {
+    color: red;
+    font-size: 20px;
 }
