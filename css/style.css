@@ -50,10 +50,30 @@ footer {
 
 .container-top {
     margin: 2% 0;
+    position: relative;
     /* Debug */
-    height: 400px;
-    background-color: rgb(225, 214, 122);
+    /* height: 400px;
+    background-color: rgb(225, 214, 122); */
 }
+
+.container-top img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.banner-text {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+
 
 .row-title {
     /* Debug */
